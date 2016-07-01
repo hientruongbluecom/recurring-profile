@@ -1,0 +1,70 @@
+<!--@subject Recurring Profile Failed Reminder @-->
+<!--@vars
+{"var reason":"Profile Failed Reason",
+"var reference":"Reference",
+"var item":"Purchased Item",
+"var profileSchedule":"Profile Schedule",
+"var billingAddress":"Billing Address",
+"var shippingAddress":"Shipping Address",
+"var payment":"Profile Payments"}
+@-->
+
+<table>
+    <thead>
+        <tr>
+            <th>Recurring Profile Failed.</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <p>
+                    <b>Reason</b><br />
+                    {{var reason}}
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>
+                    <b>Reference</b><br />
+                    {{var reference}}
+                </p>
+            </td>
+            <td>
+                <p>
+                    <b>Purchased Item</b><br />
+                    {{var item}}
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>
+                    <b>Profile Schedule</b><br />
+                    {{var paymentMethod}}
+                </p>
+            </td>
+            <td>
+                <p>
+                    <b>Profile Payments</b><br />
+                    {{var payment}}
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>
+                    <b>Billing Address</b><br />
+                    {{var billingAddress}}
+                </p>
+            </td>
+            <td>
+                <p>
+                    <b>Shipping Address</b><br />
+                    {{var shippingAddress}}
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
